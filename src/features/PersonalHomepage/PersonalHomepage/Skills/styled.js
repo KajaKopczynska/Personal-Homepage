@@ -17,8 +17,11 @@ export const StyledHeader = styled.h2`
     font-size: 30px;
     font-weight: 900;
     color: ${({ theme }) => theme.color.textPrimary};
+    padding-bottom: 16px;
+    border-bottom: 1px solid ${({ theme }) => theme.color.headerLine};
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 18px;
+        padding-bottom: 12px;
     }
 `;
 
