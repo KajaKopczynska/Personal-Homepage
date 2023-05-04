@@ -1,7 +1,10 @@
 import { Header } from "./Header";
+import { Container } from "./styled";
 
 const PersonalHomepage = () => (
-    <Header />
+    <Container>
+        <Header />
+    </Container>
 );
 
 export default PersonalHomepage;
