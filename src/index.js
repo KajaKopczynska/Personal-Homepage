@@ -4,12 +4,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './core/App';
-import { theme } from './core/App/theme';
+import { lightMode } from './core/App/theme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={lightMode}>
       <App />
     </ThemeProvider>
   </React.StrictMode>

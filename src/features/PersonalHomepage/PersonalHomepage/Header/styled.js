@@ -36,7 +36,7 @@ export const ThisIs = styled.div`
 export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
-    color: ${({ theme }) => theme.color.black};
+    color: ${({ theme }) => theme.color.textPrimary};
     margin: 12px 0 0 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -67,17 +67,17 @@ export const StyledButtonLink = styled.button`
     font-weight: 600;
     padding: 12px 16px;
     color: rgba(209, 213, 218, 0.3);
-    border: 1px solid ${({ theme }) => theme.color.ironTransparent};
-    background-color: ${({ theme }) => theme.color.scienceBlue};
-    color: ${({ theme }) => theme.color.white};
+    border: 1px solid ${({ theme }) => theme.color.buttonLink.border};
+    background-color: ${({ theme }) => theme.color.primary};
+    color: ${({ theme }) => theme.color.buttonLink.text};
     border-radius: ${({ theme }) => theme.borderRadius};
     transition: box-shadow 0.3s;
 
     &:hover {
-        box-shadow: 0 0 2px 2px ${({ theme }) => theme.color.anakiwa};
+        box-shadow: 0 0 2px 2px ${({ theme }) => theme.color.buttonLink.shadow};
     }
     &:active {
-        box-shadow: 0 -2px 0 0 ${({ theme }) => theme.color.parsley};
+        box-shadow: 0 -2px 0 0 ${({ theme }) => theme.color.buttonLink.active};
     }
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         font-size: 18px;
