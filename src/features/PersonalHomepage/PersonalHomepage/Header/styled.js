@@ -21,6 +21,7 @@ export const Wrapper = styled.header`
 export const Image = styled.img`
     max-width: 384px;
     width: 30vw;
+    border-radius: 50%;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         min-width: 133px;
@@ -46,9 +47,11 @@ export const Name = styled.h1`
 `;
 
 export const Content = styled.p`
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.4;
-    margin:35px 0 0 0;
+    margin:36px 0 0 0;
+    max-width: 650px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.desktopMax}px) {
         margin-top: 16px;
