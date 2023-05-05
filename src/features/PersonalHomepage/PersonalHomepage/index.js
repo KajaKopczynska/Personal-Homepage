@@ -3,6 +3,7 @@ import { Header } from "./Header";
 import { Skills } from "./Skills";
 import { skills, toLearn } from "./Skills/skillsList";
 import { Portfolio } from "./Portfolio";
+import { Footer } from "./Footer";
 
 
 const PersonalHomepage = () => (
@@ -17,6 +18,7 @@ const PersonalHomepage = () => (
             skills={toLearn}
         />
         <Portfolio />
+        <Footer />
     </Container>
 );
 
