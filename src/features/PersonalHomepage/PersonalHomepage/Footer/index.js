@@ -1,3 +1,4 @@
+import { email } from "../email";
 import { SocialIcons } from "./SocialIcons";
 import { Address, Contact, EmailWrapper, FooterContent, LetsTalk, Wrapper } from "./styled";
 
@@ -7,8 +8,8 @@ export const Footer = () => (
         <LetsTalk>Let's talk!</LetsTalk>
         <Address>
             <EmailWrapper>
-                <Contact href="mailto:kaja.a.kopczynska@gmail.com">
-                    kaja.a.kopczynska@gmail.com
+                <Contact href={`mailto:${email}`}>
+                    {email}
                 </Contact>
             </EmailWrapper>
             <FooterContent>
