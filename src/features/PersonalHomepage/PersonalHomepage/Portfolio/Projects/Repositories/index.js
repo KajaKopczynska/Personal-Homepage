@@ -1,6 +1,6 @@
 import { List, Tile, Header, Description, LinksWrapper, LinksRow, LinksValue, Link } from "./styled";
 
-export const Repositories = ({repositories}) => (
+export const Repositories = ({ repositories }) => (
     <List>
         {repositories.map(({ id, name, description, homepage, html_url }) => (
             <Tile key={id}>
