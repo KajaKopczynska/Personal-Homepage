@@ -45,6 +45,25 @@ export const lightMode = {
         },
         boxBackground: colorName.white,
         headerLine: colorName.mercury,
+        tile: {
+            border: colorName.porcelain,
+            borderHover: colorName.tropicalblue,
+            header: colorName.scienceblue,
+        },
+        link: {
+            text: colorName.scienceblue,
+            underline: colorName.sciencebluelight,
+            hover: colorName.dodgerblue,
+        },
+        socialIcons: {
+            color: colorName.black,
+            hover: colorName.scienceblue,
+        },
+        modeSwitcher: {
+            background: colorName.mercury,
+            border: colorName.slategray,
+            icon: colorName.slategray,
+        },
     }
 };
 
