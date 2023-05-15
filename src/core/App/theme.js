@@ -47,22 +47,22 @@ export const lightMode = {
         headerLine: colorName.mercury,
         tile: {
             border: colorName.porcelain,
-            borderHover: colorName.tropicalblue,
-            header: colorName.scienceblue,
+            borderHover: colorName.tropicalBlue,
+            header: colorName.scienceBlue,
         },
         link: {
-            text: colorName.scienceblue,
-            underline: colorName.sciencebluelight,
-            hover: colorName.dodgerblue,
+            text: colorName.scienceBlue,
+            underline: colorName.scienceBlueLight,
+            hover: colorName.dodgerBlue,
         },
         socialIcons: {
             color: colorName.black,
-            hover: colorName.scienceblue,
+            hover: colorName.scienceBlue,
         },
         modeSwitcher: {
             background: colorName.mercury,
-            border: colorName.slategray,
-            icon: colorName.slategray,
+            border: colorName.slateGray,
+            icon: colorName.slateGray,
         },
     }
 };
