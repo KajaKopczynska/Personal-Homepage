@@ -2,7 +2,7 @@ import { ReactComponent as DangerIcon } from "./danger.svg";
 import { Wrapper, Header, Paragraph, ButtonLink } from "./styled";
 
 
-export const Error = () => (
+export const ErrorBox = () => (
     <Wrapper>
         <DangerIcon />
         <Header>Ooops! Something went wrong...</Header>
@@ -14,7 +14,8 @@ export const Error = () => (
             href="https://github.com/KajaKopczynska"
             title="KajaKopczynska Github"
             target="_blank"
-            rel="noreferrer noopener">
+            rel="noreferrer"
+        >
             Go to Github
         </ButtonLink>
     </Wrapper>

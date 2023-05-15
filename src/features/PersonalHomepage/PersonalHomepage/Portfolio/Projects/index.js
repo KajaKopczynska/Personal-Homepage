@@ -1,4 +1,4 @@
-import { Error } from "./Error";
+import { ErrorBox } from "./ErrorBox";
 import { Loading } from "./Loading";
 import { Repositories } from "./Repositories";
 
@@ -8,15 +8,12 @@ export const Projects = ({ status, repositories }) => {
             return null;
 
         case "loading":
-            return <Loading />
-        
+            return <Loading />;
+
         case "error":
-            return <Error />
+            return <ErrorBox />;
 
         case "success":
-            return <Repositories repositories={repositories} />
-
-        default:
-            throw new Error(`incorrect status: ${status}`)
+            return <Repositories repositories={repositories} />;
     }
 };
