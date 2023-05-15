@@ -1,11 +1,15 @@
-import {Repositories} from "./Repositories";
+import { Loading } from "./Loading";
+import { Repositories } from "./Repositories";
 
-export const Projects = ({status, repositories}) => {
-switch(status) {
-    case "initial":
-        return null;
-    
-    case "success":
-        return <Repositories repositories={repositories} />
-}
+export const Projects = ({ status, repositories }) => {
+    switch (status) {
+        case "initial":
+            return null;
+
+        case "loading":
+            return <Loading />
+
+        case "success":
+            return <Repositories repositories={repositories} />
+    }
 };
