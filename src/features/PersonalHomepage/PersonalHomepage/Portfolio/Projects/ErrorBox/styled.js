@@ -32,13 +32,14 @@ export const Paragraph = styled.p`
     }
 `;
 
-export const ButtonLink = styled.button`
+export const ButtonLink = styled.a`
     border: 1px solid ${({ theme }) => theme.color.buttonLink.border};
     font-size: 20px;
     background-color: ${({ theme }) => theme.color.primary};
     color: ${({ theme }) => theme.color.buttonLink.text};
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
     padding: 12px 16px;
     border-radius: ${({ theme }) => theme.borderRadius};
     transition: box-shadow 0.3s;

@@ -62,12 +62,13 @@ export const Content = styled.p`
     }
 `;
 
-export const StyledButtonLink = styled.button`
+export const StyledButtonLink = styled.a`
     margin-top: 32px;
     display: inline-flex;
     align-items: center;
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
     padding: 12px 16px;
     color: rgba(209, 213, 218, 0.3);
     border: 1px solid ${({ theme }) => theme.color.buttonLink.border};
