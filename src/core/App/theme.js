@@ -59,7 +59,7 @@ export const lightMode = {
             color: colorName.black,
             hover: colorName.scienceBlue,
         },
-        modeSwitcher: {
+        themeSwitch: {
             background: colorName.mercury,
             border: colorName.slateGray,
             icon: colorName.slateGray,
