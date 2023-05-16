@@ -1,6 +1,20 @@
 # Personal homepage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Personal Homepage! Here, you'll find details about my skills, aspirations for personal growth, and a direct link to my repository.
+
+![Personal Homepage](https://.gif)
+
+## Demo
+https://kajakopczynska.github.io/personal-homepage/
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Redux
+- Redux-Saga
+- React
+- Styled Components
 
 ## Available Scripts
 
