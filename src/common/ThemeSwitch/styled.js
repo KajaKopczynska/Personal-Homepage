@@ -13,7 +13,6 @@ export const Button = styled.button`
   background: none;
   border: none;
   outline-offset: 8px;
-  cursor: pointer;
 `;
 
 export const Text = styled.span`
@@ -43,13 +42,12 @@ border-radius: 50%;
 padding: 3px;
 transition: transform 0.3s;
 
-${({ moveToRight }) =>
-  moveToRight &&
-  css`
+${({ moveToRight }) => moveToRight && css`
     transform: translateX(20px);
   `}
 `;
 
 export const Icon = styled(LightIcon)`
   color: ${({ theme }) => theme.color.themeSwitch.icon};
+  border-radius: 50%; 
 `;

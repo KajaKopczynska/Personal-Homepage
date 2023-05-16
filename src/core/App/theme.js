@@ -61,8 +61,7 @@ export const lightTheme = {
         },
         themeSwitch: {
             background: colorName.mercury,
-            border: colorName.slateGray,
-            icon: colorName.slateGray,
+            icon: colorName.white,
         },
     }
 };
@@ -100,7 +99,6 @@ export const darkTheme = {
         },
         themeSwitch: {
             background: colorName.slateGray,
-            border: colorName.white,
             icon: colorName.black,
         },
     }
