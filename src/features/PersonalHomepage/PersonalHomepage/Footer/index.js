@@ -13,7 +13,7 @@ export const Footer = () => (
                 </Contact>
             </EmailWrapper>
             <FooterContent>
-                I’m always open to new projects whenever I have the time. If you have a website, dashboard or mobile app in mind and need some help to make your ideas come to life, feel free to conatct me!
+            I'm always excited to start new projects. If you have an idea for a website, dashboard, or mobile app and need help making it happen, feel free to contact me! I'm here to support you and turn your ideas into a reality.
             </FooterContent>
             <SocialIcons />
         </Address>
