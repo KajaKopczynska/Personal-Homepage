@@ -2,19 +2,27 @@
 
 Welcome to my Personal Homepage! Here, you'll find details about my skills, aspirations for personal growth, and a direct link to my repository.
 
-![Personal Homepage](https://.gif)
-
 ## Demo
-https://kajakopczynska.github.io/personal-homepage/
+
+Discover my portfolio - **[Visit Now!](https://kajakopczynska.github.io/personal-homepage/)**
+
+## How it works
+
+![Personal Homepage GIF](public/personal-homepage.gif)
 
 ## Technologies
+
+- REACT
+- REDUX
+- JAVA SCRIPT
 - HTML
 - CSS
-- JavaScript
-- Redux
-- Redux-Saga
-- React
-- Styled Components
+- STYLED COMPONENTS
+- GIT
+- GITHUB
+- VISUAL STUDIO CODE
+
+[![Technologies](https://skillicons.dev/icons?i=react,redux,js,html,css,styledcomponents,git,github,vscode)](https://skillicons.dev)
 
 ## Available Scripts
 
