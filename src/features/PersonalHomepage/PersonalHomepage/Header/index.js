@@ -1,5 +1,5 @@
 import { Wrapper, Image, ThisIs, Name, Content, StyledButtonLink, HireMeIcon } from "./styled";
-import myPhoto from "./images/pobrane.png";
+import myPhoto from "./images/myPhoto.jpg";
 import { email } from "../email";
 
 export const Header = () => (
