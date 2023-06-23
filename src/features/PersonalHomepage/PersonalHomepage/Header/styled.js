@@ -17,11 +17,40 @@ export const Wrapper = styled.header`
         grid-gap: 12px;
     }
 `;
+export const ImageWrapper = styled.div`
+    position: relative;
+`;
 
 export const Image = styled.img`
+    position: relative;
     max-width: 384px;
     width: 30vw;
     border-radius: 50%;
+    opacity: ${({ isHovered }) => (isHovered ? 0 : 1)};
+    transition: opacity 0.8s;
+
+    &.hovered {
+        opacity: 0;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+        min-width: 133px;
+    }
+`;
+
+export const ImageHover = styled.img`
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 384px;
+    width: 30vw;
+    border-radius: 50%;
+    opacity: ${({ isHovered }) => (isHovered ? 0 : 1)};
+    transition: opacity 0.8s;
+
+    &.hovered {
+        opacity: 0;
+    }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         min-width: 133px;

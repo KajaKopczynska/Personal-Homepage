@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Wrapper, Image, ThisIs, Name, Content, StyledButtonLink, HireMeIcon } from "./styled";
+import { Wrapper, Image, ThisIs, Name, Content, StyledButtonLink, HireMeIcon, ImageHover, ImageWrapper } from "./styled";
 import myPhoto from "./images/myPhoto.jpg";
 import myHoverPhoto from "./images/myHoverPhoto.jpg";
 import { email } from "../email";
@@ -16,16 +16,24 @@ export const Header = () => {
         setIsHovered(false);
     };
 
-    const imageSrc = isHovered ? myHoverPhoto : myPhoto;
-
     return (
         <Wrapper>
-            <Image
-                src={imageSrc}
-                alt="Kaja Kopczyńska"
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-            />
+            <ImageWrapper>
+                <Image
+                    src={myPhoto}
+                    alt="Kaja Kopczyńska"
+                    className={isHovered ? "hovered" : ""}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                />
+                <ImageHover
+                    src={myHoverPhoto}
+                    alt="Kaja Kopczyńska"
+                    className={isHovered ? "" : "hovered"}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
+                />
+            </ImageWrapper>
             <div>
                 <ThisIs>This is</ThisIs>
                 <Name>Kaja Kopczyńska</Name>
