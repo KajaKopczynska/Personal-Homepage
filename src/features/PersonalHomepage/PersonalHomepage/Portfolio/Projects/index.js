@@ -17,6 +17,6 @@ export const Projects = ({ status, repositories }) => {
             return <Repositories repositories={repositories} />;
 
         default:
-            throw new Error(`Incorrect status :${status}`);
+            return null;
     }
 };
