@@ -9,7 +9,7 @@ const colorName = {
     mercury: "#E5E5E5",
     slateGray: "#6E7E91",
     shipCove: "#79abad",
-    dodgerBlue: "#77b5ba",
+    dodgerBlue: "#409094",
     tropicalBlue: "#a3c7c9",
     scienceBlueLight: "rgba(72, 130, 135, 0.2)",
     scienceBlue: "#488287",
