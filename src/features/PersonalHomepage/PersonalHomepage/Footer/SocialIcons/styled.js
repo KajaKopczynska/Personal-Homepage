@@ -29,7 +29,7 @@ export const Item = styled.li`
 
 export const Link = styled.a`
     color: ${({ theme }) => theme.color.textPrimary};
-    transition: color 0.03s;
+    transition: color 0.3s;
     &:hover {
         color: ${({ theme }) => theme.color.primary};
     }
